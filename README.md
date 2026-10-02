@@ -53,15 +53,25 @@ End-to-end operational analysis of 5,000 B2B electrical distribution orders to i
 
 ---
 
-## 5. Repository Structure
+## 5. Power BI Executive Dashboard
+
+### Bottleneck & Stage Breakdown
+![Page 1 Overview](power-bi/Screenshot%202026-10-03%20024600.png)
+
+### Overview & Lead Time Analysis
+![Page 2 Bottleneck](power-bi/Screenshot%202026-10-03%20024455.png)
+
+---
+
+## 6. Repository Structure
 * `data/` : Raw and cleaned order datasets
 * `sql/` : Data cleaning, SLA calculations, and KPI queries
 * `notebooks/` : Exploratory data analysis (EDA) in Python
-* `dashboard/` : Power BI reporting model (.pbix)
+* `power-bi/` : Power BI dashboard (.pbix) and dashboard previews
 * `README.md` : Executive summary and portfolio documentation
 
 ---
 
-## 6. Live Project Workspaces
+## 7. Live Project Workspaces
 * 🔗 **Confluence Space:** [Order-to-Cash Technical Documentation](https://bk7808990.atlassian.net/wiki/spaces/OPI/overview)
 * 🔗 **Jira Project:** [OTC Sprint & Delivery Board](https://bk7808990.atlassian.net/jira/software/projects/OTC/boards/199)
